@@ -21,7 +21,7 @@ export default function Navbar({ activeTab, setActiveTab, session, onLogout }) {
             </div>
             <div>
               <span className="text-lg font-extrabold tracking-wider bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-                APEX RACING
+                ACC SIM LEAGUE
               </span>
               <span className="block text-[10px] text-violet-400 font-bold tracking-widest uppercase">
                 ACC Telemetry

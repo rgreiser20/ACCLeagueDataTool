@@ -306,7 +306,7 @@ export default function AdminPortal({ session, setSession }) {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="steward@apexracing.com"
+                placeholder="steward@accsimleague.com"
                 className="w-full glass-input rounded-lg pl-10 pr-4 py-2.5 text-sm"
               />
             </div>

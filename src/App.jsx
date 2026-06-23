@@ -64,7 +64,7 @@ export default function App() {
       </main>
 
       <footer className="py-6 border-t border-slate-900/60 text-center text-xs text-slate-600 bg-slate-950/40 backdrop-blur-sm mt-auto">
-        <p>© 2026 Apex Sim Racing League. Powered by ACC Telemetry & Supabase.</p>
+        <p>© 2026 ACC Sim League. Powered by ACC Telemetry & Supabase.</p>
       </footer>
     </div>
   );
