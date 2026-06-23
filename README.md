@@ -427,6 +427,18 @@ A React Single Page Application (SPA) built with **Vite, React, Tailwind CSS, Re
    npm run build
    ```
 
+### Automated GitHub Pages Deployment
+
+This repository includes a GitHub Actions CI/CD workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) that automatically builds the Vite React application and deploys it to the `gh-pages` branch whenever commits are pushed to `main`.
+
+To enable this:
+1. **Configure Repository Actions Secrets**:
+   Go to your GitHub repository -> **Settings -> Secrets and variables -> Actions**, and add the following repository secrets:
+   - `VITE_SUPABASE_URL`: Your Supabase API URL.
+   - `VITE_SUPABASE_ANON_KEY`: Your Supabase public anon key.
+2. **Enable GitHub Pages**:
+   Go to your GitHub repository -> **Settings -> Pages**. Under **Build and deployment -> Branch**, select `gh-pages` and `/ (root)`, then click **Save**.
+
 ---
 
 ## License
